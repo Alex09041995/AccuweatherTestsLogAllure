@@ -18,7 +18,8 @@ public class ClassifyCuisineTest extends AbstractTest {
     @DisplayName("ClassifyCuisineTest")
     @Description("POST IngredientSubstitutes")
     @Link("")
-    @Severity(SeverityLevel.NORMAL)
+    @Severity(SeverityLevel.MINOR)
+    @Owner("Шмыгарев Александр")
     @Story(value = "Тестирование метода IngredientSubstitutes")
     void postClassifyCuisine_whenValid_shouldReturn() {
         ClassifyCuisineDTO response = given()
@@ -30,7 +31,7 @@ public class ClassifyCuisineTest extends AbstractTest {
                 .post(getBaseUrl()+"recipes/cuisine")
                 .then()
                 .statusCode(200)
-                .time(Matchers.lessThan(3000l))
+                .time(Matchers.lessThan(3000L))
                 .extract()
                 .response()
                 .body()

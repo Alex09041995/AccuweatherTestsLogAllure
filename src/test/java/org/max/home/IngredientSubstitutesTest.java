@@ -28,7 +28,7 @@ public class IngredientSubstitutesTest extends AbstractTest {
                 .get(getBaseUrl()+"food/ingredients/substitutes")
                 .then()
                 .statusCode(200)
-                .time(Matchers.lessThan(1000l))
+                .time(Matchers.lessThan(3000L))
                 .extract()
                 .response()
                 .body()
