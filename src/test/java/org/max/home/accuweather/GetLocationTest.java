@@ -19,8 +19,8 @@ public class GetLocationTest extends AccuweatherAbstractTest {
     @Test
     @DisplayName("GetLocationTest")
     @Description("GET Location")
-    @Link("")
-    @Severity(SeverityLevel.NORMAL)
+    @Link("https://developer.accuweather.com/apis")
+    @Severity(SeverityLevel.CRITICAL)
     @Owner("Шмыгарев Александр")
     @Story(value = "Тестирование метода - getLocation_search_returnMoscow")
     void getLocation_search_returnMoscow() {

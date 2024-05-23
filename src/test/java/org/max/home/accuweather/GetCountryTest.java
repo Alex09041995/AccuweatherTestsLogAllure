@@ -15,8 +15,8 @@ public class GetCountryTest extends AccuweatherAbstractTest {
     @Test
     @DisplayName("GetCountryTest")
     @Description("GET Country")
-    @Link("")
-    @Severity(SeverityLevel.NORMAL)
+    @Link("https://developer.accuweather.com/apis")
+    @Severity(SeverityLevel.CRITICAL)
     @Owner("Шмыгарев Александр")
     @Story(value = "Тестирование метода - checkGetCountry")
     public void checkGetCountry() throws Exception {

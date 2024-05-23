@@ -16,7 +16,7 @@ public class GetSetNightTest extends AccuweatherAbstractTest {
     @Test
     @DisplayName("GetSetNightTest")
     @Description("GET NightPrecipitation")
-    @Link("")
+    @Link("https://developer.accuweather.com/apis")
     @Severity(SeverityLevel.NORMAL)
     @Owner("Шмыгарев Александр")
     @Story(value = "Тестирование метода checkGet_SetNight")

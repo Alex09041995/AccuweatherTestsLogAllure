@@ -23,8 +23,8 @@ public class GetSetTemperatureTest extends AccuweatherAbstractTest {
     @Test
     @DisplayName("GetSetTemperatureTest")
     @Description("GET Temperature")
-    @Link("")
-    @Severity(SeverityLevel.NORMAL)
+    @Link("https://developer.accuweather.com/apis")
+    @Severity(SeverityLevel.CRITICAL)
     @Owner("Шмыгарев Александр")
     @Story(value = "Тестирование метода checkGetMaximum")
     public void checkGetMaximum() {
@@ -37,8 +37,8 @@ public class GetSetTemperatureTest extends AccuweatherAbstractTest {
     @Test
     @DisplayName("GetSetTemperatureTest")
     @Description("GET Temperature")
-    @Link("")
-    @Severity(SeverityLevel.NORMAL)
+    @Link("https://developer.accuweather.com/apis")
+    @Severity(SeverityLevel.CRITICAL)
     @Owner("Шмыгарев Александр")
     @Story(value = "Тестирование метода checkSetMaximum")
     public void checkSetMaximum() {
@@ -50,8 +50,8 @@ public class GetSetTemperatureTest extends AccuweatherAbstractTest {
     @Test
     @DisplayName("GetSetTemperatureTest")
     @Description("GET Temperature")
-    @Link("")
-    @Severity(SeverityLevel.NORMAL)
+    @Link("https://developer.accuweather.com/apis")
+    @Severity(SeverityLevel.CRITICAL)
     @Owner("Шмыгарев Александр")
     @Story(value = "Тестирование метода checkGetMinimum")
     public void checkGetMinimum() {
@@ -64,8 +64,8 @@ public class GetSetTemperatureTest extends AccuweatherAbstractTest {
     @Test
     @DisplayName("GetSetTemperatureTest")
     @Description("GET Temperature")
-    @Link("")
-    @Severity(SeverityLevel.NORMAL)
+    @Link("https://developer.accuweather.com/apis")
+    @Severity(SeverityLevel.CRITICAL)
     @Owner("Шмыгарев Александр")
     @Story(value = "Тестирование метода checkSetMinimum")
     public void checkSetMinimum() {

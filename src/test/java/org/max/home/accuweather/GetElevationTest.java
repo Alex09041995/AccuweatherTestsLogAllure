@@ -16,8 +16,8 @@ public class GetElevationTest extends AccuweatherAbstractTest {
     @Test
     @DisplayName("GetElevationTest")
     @Description("GET Elevation")
-    @Link("")
-    @Severity(SeverityLevel.NORMAL)
+    @Link("https://developer.accuweather.com/apis")
+    @Severity(SeverityLevel.CRITICAL)
     @Owner("Шмыгарев Александр")
     @Story(value = "Тестирование метода - checkGetMetric_Imperial")
     public void checkGetMetric_Imperial() {

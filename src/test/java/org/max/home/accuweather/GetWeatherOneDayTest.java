@@ -16,8 +16,8 @@ public class GetWeatherOneDayTest extends AccuweatherAbstractTest {
     @Test
     @DisplayName("GetWeatherOneDayTest")
     @Description("GET WeatherOneDay")
-    @Link("")
-    @Severity(SeverityLevel.MINOR)
+    @Link("https://developer.accuweather.com/apis")
+    @Severity(SeverityLevel.CRITICAL)
     @Owner("Шмыгарев Александр")
     @Story(value = "Тестирование метода getWeatherOneDay_shouldReturn")
     void getWeatherOneDay_shouldReturn() {

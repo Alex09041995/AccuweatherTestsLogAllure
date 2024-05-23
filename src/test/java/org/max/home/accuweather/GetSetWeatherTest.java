@@ -20,8 +20,8 @@ public class GetSetWeatherTest extends AccuweatherAbstractTest {
     @Test
     @DisplayName("GetSetWeatherTest")
     @Description("GET Weather")
-    @Link("")
-    @Severity(SeverityLevel.MINOR)
+    @Link("https://developer.accuweather.com/apis")
+    @Severity(SeverityLevel.CRITICAL)
     @Owner("Шмыгарев Александр")
     @Story(value = "Тестирование метода testGetSetWeather")
     public void testGetSetWeather() throws IOException {

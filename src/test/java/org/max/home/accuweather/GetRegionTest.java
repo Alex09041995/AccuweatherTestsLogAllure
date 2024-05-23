@@ -21,8 +21,8 @@ public class GetRegionTest extends AccuweatherAbstractTest {
     @Test
     @DisplayName("GetRegionTest")
     @Description("GET RegionId")
-    @Link("")
-    @Severity(SeverityLevel.NORMAL)
+    @Link("https://developer.accuweather.com/apis")
+    @Severity(SeverityLevel.CRITICAL)
     @Owner("Шмыгарев Александр")
     @Story(value = "Тестирование метода - checkSet_GetId")
     public void checkSet_GetId() {
@@ -34,8 +34,8 @@ public class GetRegionTest extends AccuweatherAbstractTest {
     @Test
     @DisplayName("GetRegionTest")
     @Description("GET RegionLocalizedName")
-    @Link("")
-    @Severity(SeverityLevel.NORMAL)
+    @Link("https://developer.accuweather.com/apis")
+    @Severity(SeverityLevel.CRITICAL)
     @Owner("Шмыгарев Александр")
     @Story(value = "Тестирование метода - checkSet_GetLocalizedName")
     public void checkSet_GetLocalizedName() {
@@ -47,8 +47,8 @@ public class GetRegionTest extends AccuweatherAbstractTest {
     @Test
     @DisplayName("GetRegionTest")
     @Description("GET RegionEnglishName")
-    @Link("")
-    @Severity(SeverityLevel.NORMAL)
+    @Link("https://developer.accuweather.com/apis")
+    @Severity(SeverityLevel.CRITICAL)
     @Owner("Шмыгарев Александр")
     @Story(value = "Тестирование метода - checkSet_GetEnglishName")
     public void checkSet_GetEnglishName() {
