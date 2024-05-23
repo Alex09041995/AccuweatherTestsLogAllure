@@ -27,7 +27,7 @@ public class ReportAllureTest {
     void simpleErrorTest() {
         //given
         int a = 10;
-        int b = 0;
+        int b = 1;
         //when
         int c = a/b;
         //then
